@@ -11,42 +11,73 @@
     <title>2-oy 5-dars</title>
   </head>
   <body>
-    <section class="container cargo-container">
-      <div class="info">
-        <h1>Поставщик Дальнего <br> Востока </h1>
-        <p>
-          Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная
-          с подбора производителя заканчивая доставкой товара до двери.
-          Настолько прозрачных сделок с Китаем вы еще не осуществляли.
-        </p>
-        <a href="#">Узнать больше</a>
+    <div class="hero-container container">
+      <div class="hero-info">
+      <h1>Поставщик Дальнего Востока</h1>
+      <p>Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная с подбора производителя заканчивая доставкой товара до двери. Настолько прозрачных сделок с Китаем вы еще не осуществляли.</p>
+      <a href="#">Узнать больше</a>
       </div>
 
-      <div class="photo">
-        <img src="./images/cargo.png" alt="truck" width="635" />
+      <div class="hero-photo">
+        <picture>
+          <source media="(min-width: 992px)" srcset="./images/cargo.png">
+          <source media="(min-width: 768px)" srcset="./images/tablet.png">
+          <source media="(min-width: 576px)" srcset="./images/mobile.png">
+          <img src="./images/cargo.png" alt="cargo">
+        </picture>
       </div>
-    </section>
 
-    <div class="card container-card">
-        <div class="first-c">
-          <div class="image"><img src="./images/first.png" alt="building" width="50"></div>
-          <div class="title"><h3>Поиск производителей по товару</h3></div>
-          <div class="paragraph"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p></div>
-        </div>
-  
-        <div class="second-c">
-          <div class="image-2"><img src="./images/second.png" alt="machine" width="46.92"></div>
-          <div class="title-2"><h3>Поиск конкретного производителя</h3></div>
-          <div class="paragraph-2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p></div>
-        </div>
-         
-        <div class="third-c">
-          <div class="image-3"><img src="./images/third.png" alt="box" width="50"></div>
-          <div class="title-3"><h3>Доставка образцов товаров</h3></div>
-          <div class="paragraph-3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p></div>
-        </div>
-  
-        </div>
-    
+    </div>
+
+   <div class="card-container card">
+      <div class="first-c">
+        <span  class="building">
+          <img src="./images/first.png" alt="building" width="50">
+        </span>
+
+      <div class="birnima">
+        <div class="card-title">
+          <h3>Поиск производителей по товару</h3>
+       </div>
+
+       <div class="card-text">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut. </p>
+       </div>
+     </div>
+      </div>
+
+      <div class="second-c">
+        <span  class="machine">
+          <img src="./images/second.png" alt="machine" width="50">
+        </span>
+
+       <div class="birnima-2">
+        <div class="card-title-2">
+          <h3>Поиск конкретного производителя</h3>
+       </div>
+
+       <div class="card-text-2">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut. </p>
+       </div>
+     </div>
+       </div>
+
+      <div class="third-c">
+        <span  class="box">
+          <img src="./images/third.png" alt="box" width="66.15">
+        </span>
+
+       <div class="birnima-3">
+        <div class="card-title-3">
+          <h3>Доставка образцов товаров</h3>
+       </div>
+
+       <div class="card-text-3">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut. </p>
+       </div>
+     </div>
+       </div>
+
+    </div> 
   </body>
 </html>
